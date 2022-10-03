@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@civic/profile": "^0.1.2",
+    "@solana/web3.js": "^1.63.1",
     "next": "12.3.1",
     "react": "18.2.0",
     "react-dom": "18.2.0"
