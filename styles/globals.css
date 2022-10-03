@@ -20,7 +20,11 @@ a {
     color-scheme: dark;
   }
   body {
+    color: rgb(230, 230, 230);
+    background: rgb(2, 2, 2);
+  }
+  .code  {
     color: white;
-    background: black;
+    background-color: black;
   }
 }
