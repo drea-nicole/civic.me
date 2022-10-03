@@ -13,14 +13,14 @@
 }
 
 .title a {
-  color: #0070f3;
   text-decoration: none;
 }
 
 .title a:hover,
 .title a:focus,
 .title a:active {
-  text-decoration: underline;
+  text-decoration-line: underline;
+  text-decoration-color:#ff6b4e;
 }
 
 .title {
@@ -41,7 +41,6 @@
 }
 
 .code {
-  background: #fafafa;
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
@@ -51,7 +50,7 @@
 
 @media (prefers-color-scheme: dark) {
   .code {
-    background: #111;
+    background: #ff6b4e;
   }
  
 }
